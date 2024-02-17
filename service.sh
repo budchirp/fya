@@ -6,7 +6,6 @@ until [[ "$(getprop sys.boot_completed)" == "1" ]]; do
 	sleep 1
 done
 
-device_config set_sync_disabled_for_tests persistent
 device_config put activity_manager max_phantom_processes 2147483647
 
 resetprop persist.sys.fflag.override.settings_enable_monitor_phantom_procs false
