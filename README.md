@@ -9,4 +9,5 @@
 
 ## 💾 Installation
 
-1. install the module as a magisk module
+1. Download the latest [artifact](https://github.com/budchirp/fya/actions)
+2. Install the module as a magisk module
