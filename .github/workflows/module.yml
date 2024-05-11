@@ -3,8 +3,8 @@ name: Build
 on: [push, pull_request]
 
 jobs:
-  build-overlays:
-    name: Build
+  build-module:
+    name: Build modules
     runs-on: ubuntu-latest
 
     steps:
@@ -14,9 +14,6 @@ jobs:
         with:
           distribution: 'oracle'
           java-version: '17'
-
-      - name: Create
-        run: ./create.sh
 
       - uses: actions/upload-artifact@v3
         with:
