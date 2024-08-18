@@ -1,5 +1,7 @@
-<h1 align="center"><bold>F</bold>uck <bold>Y</bold>ou <bold>A</bold>ndroid (FYA)</h1>
-<h2 align="center">Disables & Improves stupid stuff on Android</h2>
+<div align="center">
+    <h1><bold>F</bold>uck <bold>Y</bold>ou <bold>A</bold>ndroid (FYA)</h1>
+    <h2>Disables & Improves stupid stuff on Android</h2>
+</div>
 
 <div align="center">
   <img alt="Stargazers" src="https://img.shields.io/github/stars/budchirp/calcplusplus?style=for-the-badge&colorA=0b1221&colorB=ff8e8e" />
